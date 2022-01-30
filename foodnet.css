@@ -1,5 +1,5 @@
 body{
-    background-color: aqua;
+    background-color:cyan;
     font-family: 'Roboto Condensed', sans-serif;
 }
 *{
@@ -19,7 +19,7 @@ a{
     text-decoration: none;
     border-radius: 10px;
     border-bottom:5px solid yellow;
-    box-shadow: 10px 10px 15px black ;
+    box-shadow: -10px 10px 15px black ;
 }
 .main-section{
     padding: 10px;
@@ -39,4 +39,9 @@ a{
 }
 .half-width img{
     width: 100%;
+}
+.second-section{
+    background-image: url(png/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
