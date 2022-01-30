@@ -1,0 +1,42 @@
+body{
+    background-color: aqua;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+*{
+    
+}
+h1{
+    font-size: 35px;
+}
+.new-color{
+    color:rgb(255, 7, 152)
+}
+a{
+    background-image: linear-gradient(30deg,red,rgb(0, 177, 74),blue);
+    padding:10px 20px;
+    color:azure;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 10px;
+    border-bottom:5px solid yellow;
+    box-shadow: 10px 10px 15px black ;
+}
+.main-section{
+    padding: 10px;
+    background-image: url(image/271686.jpg);
+    background-size: 100%;
+}
+.main-section p{
+    max-width: 500px;
+}
+.section-flex{
+    display: flex;
+    box-shadow: 10px 10px 10px gray;
+
+}
+.half-width{
+    width: 100%;
+}
+.half-width img{
+    width: 100%;
+}
