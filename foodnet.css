@@ -127,7 +127,7 @@ img{
     display: flex;
     padding: 50px;
     border-radius: 10px;
-    border-image: ;
+    border-image: liner-gra ;
     border-image-slice: 1;
     border-image-width: 5px;
 }
@@ -137,3 +137,10 @@ img{
     margin-left: 3%;
 
 }
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
