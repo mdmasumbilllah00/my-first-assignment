@@ -1,5 +1,4 @@
 body{
-    background-color:cyan;
     font-family: 'Roboto Condensed', sans-serif;
 }
 *{
@@ -11,7 +10,7 @@ h1{
 .new-color{
     color:rgb(255, 7, 152)
 }
-a{
+.main-section a{
     background-image: linear-gradient(30deg,red,rgb(0, 177, 74),blue);
     padding:10px 20px;
     color:azure;
@@ -26,12 +25,14 @@ a{
     background-image: url(image/271686.jpg);
     background-size: 100%;
 }
-.main-section p{
+.section-flex  p{
     max-width: 500px;
 }
 .section-flex{
     display: flex;
     box-shadow: 10px 10px 10px gray;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
 
 }
 .half-width{
@@ -40,10 +41,24 @@ a{
 .half-width img{
     width: 100%;
 }
+.extra-section{
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid;
+    height:300px;
+    margin:50px 80px 50px 80px ;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px -10px 10px gray inset;
+
+
+}
 .second-section{
     background-image: url(png/7.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    padding:150px 50px;
 }
 .last-heading{
     text-align: center;
@@ -52,7 +67,7 @@ a{
     width:30%;
     margin-left:3%;
     border-radius: 10px;
-    box-shadow: -10px -10px 20px gray ;
+    box-shadow: -10px -10px 30px gray ;
     padding:10px;
 }
 h3{
@@ -62,5 +77,63 @@ h3{
     width:100% ;
     height:60%;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 15px gray;
+}
+.food-icon{
+    height: 80px;
+    width: 80px;
+}
+.extra-section-part{
+    width: 30%;
+    margin-left: 50px;
+}
+.link-color{
+    background-image: linear-gradient(rgb(4, 255, 0),rgb(6, 255, 238));
+    padding:10px 20px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 10px;
+    border-bottom:5px solid rgb(7, 28, 255);
+    box-shadow: none;
+}
+img{
+    border-radius: 10px;
+}
+.delevery-section{
+    background-image: linear-gradient(tomato,rgb(255, 167, 16));
+    height: 300px;
+    margin: 50px 100px 50px 100px;
+    border-radius: 20px;
+    box-shadow: 10px -10px 10px rgb(169, 107, 107) inset;
+    text-align: center;
+    padding: 30px 80px;
+}
+.delevery-section h1{
+    font-size: 60px;
+
+}
+.delevery-section a{
+    font-size: 15px;
+    font-weight: 700;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+.like-section{
+    margin: 100px;
+    border: 1px solid;
+    display: flex;
+    padding: 50px;
+    border-radius: 10px;
+    border-image: ;
+    border-image-slice: 1;
+    border-image-width: 5px;
+}
+.like-part{
+    text-align: center;
+    width:30%;
+    margin-left: 3%;
+
 }
