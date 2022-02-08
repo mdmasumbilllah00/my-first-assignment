@@ -122,3 +122,49 @@ a {
    color: #fff;
    text-decoration: none;
  }
+ .food img{
+     width: 80%;
+     height: 60%;
+ }
+ .food{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding:30px;
+    padding-bottom: 60px;
+    margin: 30px;
+    border-radius: 10px;
+    height: 100%;
+ }
+ .customars-section{
+     background-image: url(food/customar2.jpg);
+     text-align: center;
+     background-repeat: no-repeat;
+     background-position: right bottom;
+
+ }
+ .customar-details{
+     max-width: 300px;
+     text-align: center;
+     margin: auto;
+ }
+ .social{
+     border: 2px solid rgba(5, 4, 4, 0.159);
+     margin: 200px;
+     padding: 50px 100px;
+     border-radius: 20px;
+ }
+ .social h2{
+     color: #f80b0b;
+ }
+
+ footer{
+     height: 300px;
+     padding: 50px;
+     color: rgb(253, 253, 240);
+     text-align: center;
+     background-size: 100% 100%;
+     background-image: url(image/footerbg.jpg);
+ }
+ footer h2{
+     color: rgb(242, 255, 5);
+ }
+
