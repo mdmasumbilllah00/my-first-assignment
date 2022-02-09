@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-size: 1.2em;
     font-family: 'Arimo', sans-serif;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Open Sans', sans-serif;
@@ -15,25 +16,68 @@ h1{
 h2{
     font-size: 40px;
     color: #02AAB0;
-    margin-bottom: -20px;
+   text-transform: uppercase;
+   margin-bottom: -20px;
 
+}
+h3{
+    font-size: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 3px 0%;
+    color: #88a72c;
+    text-align: center;
+    text-transform: capitalize;
+}
+h4{
+    text-align: center;
+   margin-bottom: -20px;
+   text-transform: uppercase;
+   font-size: 1.2em;
+   color: #02AAB0;
+
+
+}
+h5{
+    font-size: 1.5em;
+    text-transform: capitalize;
 }
 
  .main-section{
-        padding: 3%;
+        padding: 100px;
         background-image: url(Frame\ 57.jpg);
         background-repeat: no-repeat;
         background-size:100% auto;
     }
     .second-section{
-        padding: 5%;
+        padding: 100px;
+        background-image:url(resturent\ pic/Flour.jpg); ;
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-color: #fdfcfa;
+
     }
     .terget-section{
-        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+       
         padding: 20px;
         padding:0px 100px 30px 100px;
-        margin: 100px;
+        background-image: url(resturent\ pic/terget.jpg);
+        padding: 100px;
+        background-size: cover;
     }
+    .target-num{
+        color: #12f540;
+    }
+    .feedback{
+        text-align: center;
+        max-width: 80%;
+        margin: auto;
+        padding: 10px 30px 50px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        margin-top: 50px;
+    }
+
+
+   
 .logo{
     position: relative;
     margin-left: 5%;
@@ -49,8 +93,9 @@ h2{
     }
     .half-width img{
         width: 100%;
-        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
         border-radius: 10px;
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+       
         
     }
     .title{
@@ -64,11 +109,61 @@ h2{
        font-size: 20px;
        border-radius: 10px;
        font-weight: 700;
-       color: white;            
+       color: white;  
+       margin-top: 50px;          
        box-shadow: 0 0 10px #eee;
-       margin: 2%;
     }
-    .target-num{
-        color: #a2b9c6;
-    }
+   .red{
+       font-size: 1.3em;
+       font-weight: 700;
+       color: #ff9100;
+       padding: 6px 30px;
+       
+       border-radius: 30px;
+   }
 
+  .our-resepy{
+      padding: 80px;
+      text-align: center;
+  }
+  .our-resepy p{
+      max-width: 60%;
+      margin: auto;
+  }
+  .food-item p{
+    max-width: 100%;
+
+  }
+  .food-item{
+      margin: 2.5%;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+      padding: 20px;
+      padding-bottom: 50px;
+      width: 30%;
+      border-radius: 20px;
+
+  }
+  .food-item img{
+      width: 100%;
+      border-radius: 10px;
+  }
+  .food-item div{
+      height:59%;
+  }
+  footer{
+        padding: 60px;
+        background-color: rgba(0, 0, 0, 0.892);
+        color: white;
+        text-align: center;
+  }
+  .subsribe{
+      margin: 0 100px;
+      border: 3px solid;
+      padding: 20px;
+      border-radius: 20px;
+  }
+  .subsribe div{
+      width: 30%;
+      margin: 20px;
+
+  }
